@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Revolution&family=Reenie+Beanie&display=swap');
+
+.gallery { 
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: space-between;
+
+}
+
+.menu {
+display: flex;
+width: 100%;
+justify-content: space-between;
+align-items: center;
+
+}
+
+ul {
+list-style-type: none;
+margin: 5px;
+padding: 5px;
+display: inline-flex;
+
+}
+
+ul li {
+    margin-right: 10px;
+}
+
+h1 {
+    margin-right: 0;
+    padding: 10px; 
+    border: 5px dotted rgb(199, 56, 135);
+}
+
+p.intro {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#birth {
+    font-family: 'Reenie Beanie', cursive;
+    font-size: 28px;
+}
+
+h4 {
+    margin-top: 0;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: small;
+
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(5, 200px);
+    padding: 100px;
+  
+}
+
+.grid-image {
+   display: flex;
+   justify-content: center;
+   height: 100px;
+   width: 100px;
+   padding: 50px;
+
+}
+
+.grid-text {
+    text-align: center;
+}
