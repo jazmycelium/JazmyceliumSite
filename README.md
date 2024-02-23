@@ -1,2 +1,2 @@
 # jazmycelium site
-hosting my tentative site m=built over media and wed development class
+hosting my tentative site built during media and wed development class
